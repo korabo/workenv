@@ -19,6 +19,9 @@ function global:.prof-upd {
     echo "create profile at $profile"
     new-item -path $profile -itemtype file -force
   }
+  echo "Add source line to file: $profile"
+  echo "Only 1 line is enough, please remove excess lines."
+  echo '# .psrc.ps1 v1.0-210611 ST(KRB/SPG/RPA/SCR)' >> $profile
   echo '. "c:\opt\bin\.psrc.ps1"' >> $profile
   notepad $profile
 }
