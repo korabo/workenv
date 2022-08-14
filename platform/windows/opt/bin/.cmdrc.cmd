@@ -8,8 +8,8 @@ if DEFINED _MYENV_ GOTO _END_
 
 set _SCOOP_SHIMS_PATH_=%USERPROFILE%\scoop\shims
 set _SCOOP_APPS_PATH_=%USERPROFILE%\scoop\apps
-set _LIBREOFFICE_PATH_=%_SCOOP_APPS_PATH_%\libreoffice-stable\current
-set _LIBREOFFICE_=LibreOfficePortable.exe
+set _LIBREOFFICE_PATH_=%_SCOOP_APPS_PATH_%\libreoffice\current\LibreOffice\program
+set _LIBREOFFICE_=soffice.exe
 
 :# -- Alias --
 :# -- hlp --
