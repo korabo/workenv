@@ -1,6 +1,7 @@
 # workenv
 CLI Oriented working env. on Windows
 Windowsコマンドライン中心設定
+- Ver:1.0.2 Rev:20220814 ST(KRB) LibreOffice
 
 ## Directries
 ```powershell
