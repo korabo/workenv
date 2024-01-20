@@ -1,7 +1,10 @@
 # workenv
+
 CLI Oriented working env. on Windows
 Windowsコマンドライン中心設定
+
 - Ver:1.0.2 Rev:20220814 ST(KRB) LibreOffice
+- Ver:1.0.3 Rev:20240121 ST(KRB) ResetWsl2
 
 ## Directries
 ```powershell
@@ -66,4 +69,3 @@ But if no profile here, then do as WindowsPowerShell.
 . c:\opt\bin\.psrc.ps1
 .prof-upd
 ```
-

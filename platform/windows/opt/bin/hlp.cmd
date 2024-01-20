@@ -11,6 +11,7 @@ echo hosts           : for open ^%systemroot^%\system32\drivers\etc or -e: edit
 echo mysbench        : for start MySQLWorkbench
 echo libreoffice     : LibreOffice
 echo localc          : LibreOfficeCalc
+echo resetwsl        : Reset WSL2 (when freeze)
 GOTO _DFLT_
 
 :_BODY_
